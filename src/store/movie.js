@@ -99,7 +99,7 @@ export default {
             if(context.state.loading) return
 
             context.commit('updateState', {
-                theMove: {},
+                theMovie: {},
                 loading: true
             })
 

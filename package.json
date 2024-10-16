@@ -12,6 +12,7 @@
     "build": "webpack --mode production",
     "lint": "eslint --fix --ext .js,.vue",
     "test:unit": "jest --coverage",
+    "test:unit:silent": "jest --coverage --silent",
     "test:unit2": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
   },
   "keywords": [],
